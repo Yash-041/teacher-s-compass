@@ -13,6 +13,7 @@ import AIAssistant from "./pages/AIAssistant";
 import Reports from "./pages/Reports";
 import MessagesPage from "./pages/MessagesPage";
 import ProfileSettings from "./pages/ProfileSettings";
+import ViewProfile from "./pages/ViewProfile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/ai-assistant" element={<AIAssistant />} />
             <Route path="/reports" element={<Reports />} />
             <Route path="/messages" element={<MessagesPage />} />
+            <Route path="/profile" element={<ViewProfile />} />
             <Route path="/settings" element={<ProfileSettings />} />
           </Route>
           <Route path="*" element={<NotFound />} />
