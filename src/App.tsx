@@ -13,6 +13,7 @@ import AIAssistant from "./pages/AIAssistant";
 import Reports from "./pages/Reports";
 import MessagesPage from "./pages/MessagesPage";
 import ProfileSettings from "./pages/ProfileSettings";
+import ViewProfile from "./pages/ViewProfile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
