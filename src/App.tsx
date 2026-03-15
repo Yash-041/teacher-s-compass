@@ -34,6 +34,7 @@ const App = () => (
             <Route path="/ai-assistant" element={<AIAssistant />} />
             <Route path="/reports" element={<Reports />} />
             <Route path="/messages" element={<MessagesPage />} />
+            <Route path="/profile" element={<ViewProfile />} />
             <Route path="/settings" element={<ProfileSettings />} />
           </Route>
           <Route path="*" element={<NotFound />} />

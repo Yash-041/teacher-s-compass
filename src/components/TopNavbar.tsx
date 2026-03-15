@@ -41,7 +41,7 @@ const TopNavbar = () => {
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-48">
-            <DropdownMenuItem onClick={() => navigate("/settings")} className="cursor-pointer gap-2">
+            <DropdownMenuItem onClick={() => navigate("/profile")} className="cursor-pointer gap-2">
               <User className="w-4 h-4" /> View Profile
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => navigate("/settings")} className="cursor-pointer gap-2">
