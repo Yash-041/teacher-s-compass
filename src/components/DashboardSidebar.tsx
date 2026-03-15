@@ -13,7 +13,6 @@ const navItems = [
   { label: "AI Teaching Assistant", path: "/ai-assistant", icon: Bot },
   { label: "Reports", path: "/reports", icon: FileText },
   { label: "Messages", path: "/messages", icon: MessageSquare },
-  { label: "Profile Settings", path: "/settings", icon: Settings },
 ];
 
 const DashboardSidebar = () => {
